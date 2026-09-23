@@ -1,0 +1,130 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApp1
+{
+    public partial class Form1 : Form
+    {
+        private Label lblHovaten;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private CheckBox chkShow;
+        private Button btn;
+        private Button btnThoat;
+        private Label lblMatKhau;
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblMatkhau_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void InitializeComponent()
+        {
+            this.lblHovaten = new System.Windows.Forms.Label();
+            this.lblMatKhau = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.chkShow = new System.Windows.Forms.CheckBox();
+            this.btn = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // lblHovaten
+            // 
+            this.lblHovaten.AutoSize = true;
+            this.lblHovaten.Location = new System.Drawing.Point(73, 44);
+            this.lblHovaten.Name = "lblHovaten";
+            this.lblHovaten.Size = new System.Drawing.Size(70, 16);
+            this.lblHovaten.TabIndex = 0;
+            this.lblHovaten.Text = "Họ và tên :";
+            // 
+            // lblMatKhau
+            // 
+            this.lblMatKhau.AutoSize = true;
+            this.lblMatKhau.Location = new System.Drawing.Point(73, 99);
+            this.lblMatKhau.Name = "lblMatKhau";
+            this.lblMatKhau.Size = new System.Drawing.Size(68, 16);
+            this.lblMatKhau.TabIndex = 1;
+            this.lblMatKhau.Text = "Mật Khẩu :";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(159, 44);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(314, 22);
+            this.textBox1.TabIndex = 2;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(159, 99);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(314, 22);
+            this.textBox2.TabIndex = 3;
+            // 
+            // chkShow
+            // 
+            this.chkShow.AutoSize = true;
+            this.chkShow.Location = new System.Drawing.Point(76, 143);
+            this.chkShow.Name = "chkShow";
+            this.chkShow.Size = new System.Drawing.Size(62, 20);
+            this.chkShow.TabIndex = 4;
+            this.chkShow.Text = "Show";
+            this.chkShow.UseVisualStyleBackColor = true;
+            // 
+            // btn
+            // 
+            this.btn.Location = new System.Drawing.Point(159, 173);
+            this.btn.Name = "btn";
+            this.btn.Size = new System.Drawing.Size(111, 42);
+            this.btn.TabIndex = 5;
+            this.btn.Text = "Đăng nhập";
+            this.btn.UseVisualStyleBackColor = true;
+            // 
+            // btnThoat
+            // 
+            this.btnThoat.Location = new System.Drawing.Point(361, 173);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(112, 42);
+            this.btnThoat.TabIndex = 6;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.ClientSize = new System.Drawing.Size(670, 438);
+            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btn);
+            this.Controls.Add(this.chkShow);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblMatKhau);
+            this.Controls.Add(this.lblHovaten);
+            this.Name = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+    }
+}
