@@ -1,3 +1,6 @@
+Tên: Nguyễn Phúc Vượng 
+Mã sinh viên: 24810320187
+
 Phần I — Lý thuyết
 
 1) Kiểu giá trị vs Kiểu tham chiếu (cơ chế lưu trữ)
