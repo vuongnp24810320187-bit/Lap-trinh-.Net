@@ -15,3 +15,5 @@ Phần I — Lý thuyết
 
 4) Tại sao thành phần static không thể truy xuất qua một thể hiện
 - Các thành phần static thuộc về kiểu (type) chứ không thuộc về bất kỳ thể hiện (instance) nào. Chúng biểu diễn trạng thái hoặc hành vi chia sẻ ở cấp lớp. Nếu cho phép truy cập qua instance sẽ gây nhầm lẫn vì không tồn tại bản sao riêng cho từng instance. Ngôn ngữ yêu cầu truy cập thành phần static thông qua tên kiểu để ý định rõ ràng.
+- <img width="1216" height="756" alt="image" src="https://github.com/user-attachments/assets/58c31b4c-6afd-4e9b-9532-25d7bc634517" />
+
