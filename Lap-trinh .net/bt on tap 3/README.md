@@ -2,13 +2,11 @@
 
 ## Thông Tin Sinh Viên
 
-| Thông tin | Nội dung |
-|-----------|----------|
-| **Họ và tên** | Nguyễn Phúc Vượng |
-| **Mã số sinh viên** | 24810320187 |
-| **Lớp** | D198QTANM1 |
-| **Môn học** | Lập trình .Net / Windows Forms |
-| **Tên bài tập** | Quản Lý Danh Sách Vật Tư (Material List Management) |
+- **Họ và tên:** Nguyễn Phúc Vượng
+- **Mã số sinh viên:** 24810320187
+- **Lớp:** D198QTANM1
+- **Môn học:** Lập trình .Net / Windows Forms
+- **Tên bài tập:** Quản Lý Danh Sách Vật Tư (Material List Management)
 
 ---
 
@@ -20,13 +18,11 @@
 
 ## Chức Năng Chính
 
-| Chức năng | Mô tả |
-|-----------|-------|
-| **Thêm mới** | Thêm vật tư mới vào danh sách (kiểm tra mã trùng) |
-| **Cập nhật** | Chỉnh sửa thông tin vật tư đang chọn trong ListView |
-| **Xóa dòng** | Xóa vật tư đang được chọn (có xác nhận) |
-| **Xóa toàn bộ** | Xóa tất cả vật tư trong danh sách (có xác nhận) |
-| **Chọn dòng** | Click vào ListView để load dữ liệu lên form nhập |
+- Thêm mới vật tư vào danh sách (kiểm tra mã trùng)
+- Cập nhật thông tin vật tư đang chọn trong ListView
+- Xóa vật tư đang được chọn (có xác nhận)
+- Xóa toàn bộ danh sách (có xác nhận)
+- Click vào ListView để load dữ liệu lên form nhập
 
 ---
 
@@ -60,26 +56,15 @@ class VatTu {
 
 ---
 
-## Các Control Sử Dụng
-
-| Control | Mục đích |
-|---------|----------|
-| `TextBox` | Nhập mã, tên, đơn giá vật tư |
-| `ComboBox` | Chọn đơn vị tính |
-| `ListView` | Hiển thị danh sách vật tư dạng bảng |
-| `Button` | Thêm mới / Cập nhật / Xóa dòng / Xóa toàn bộ |
-
----
-
 ## Cấu Trúc Dự Án
 
 ```
 bt on tap 3/
-├── bt on tap 3.slnx          # Solution file
+├── bt on tap 3.slnx
 └── bt on tap 3/
-    ├── Form1.cs               # Logic chính + class VatTu
-    ├── Form1.Designer.cs      # Thiết kế giao diện tự sinh
-    ├── Program.cs             # Điểm khởi chạy ứng dụng
+    ├── Form1.cs
+    ├── Form1.Designer.cs
+    ├── Program.cs
     ├── App.config
     └── Properties/
 ```
