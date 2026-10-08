@@ -12,10 +12,5 @@
 ## KẾT QUẢ THỰC HÀNH
 
 ### 1. Ảnh màn hình Giao diện chính
-![Giao diện chính](./screenshots/main_ui.png)
-
-### 2. Ảnh màn hình Chức năng thực thi / Kết quả
-![Thực thi chức năng](./screenshots/execution_result.png)
-
-### 3. Ảnh màn hình Kiểm tra lỗi (Validation)
-![Kiểm tra lỗi](./screenshots/validation_error.png)
+<img width="1138" height="556" alt="Ảnh chụp màn hình 2026-10-08 144524" src="https://github.com/user-attachments/assets/5f46f925-4615-4e15-96a2-022415b26090" />
+<img width="1138" height="556" alt="Ảnh chụp màn hình 2026-10-08 144524" src="https://github.com/user-attachments/assets/648bdb85-2760-4b3f-8698-fa3883de059f" />
