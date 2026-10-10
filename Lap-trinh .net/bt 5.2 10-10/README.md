@@ -1,40 +1,22 @@
-# Bài tập 5.2 – Form Đăng Ký Dịch Vụ Y Tế (10/10)
+# BÁO CÁO BÀI TẬP / ĐỒ ÁN
 
-## Mô tả
-Ứng dụng Windows Forms C# mô phỏng hệ thống **đăng ký dịch vụ y tế** tại phòng khám. Người dùng có thể chọn các dịch vụ theo danh mục và hệ thống tự động tính tổng tiền cần thanh toán.
+## THÔNG TIN SINH VIÊN
+- **Họ và tên:** Nguyễn Phúc Vượng
+- **Mã số sinh viên:** 24810320187
+- **Lớp:** D19QTANM1
+- **Tên môn học:** Lập trình C# / Windows Forms
+- **Tên bài tập:** Bài tập 5.2 – Form Đăng Ký Dịch Vụ Y Tế (10/10)
 
-## Chức năng
-- 📋 Chọn danh mục dịch vụ từ `ComboBox` (Khám bệnh, Xét nghiệm, Chụp X-Quang, Vắc-xin)
-- ➕ Thêm dịch vụ vào danh sách đã chọn (click hoặc double-click)
-- ➖ Xóa dịch vụ khỏi danh sách đã chọn
-- 🗑️ Xóa toàn bộ dịch vụ đã chọn
-- 💰 Tự động tính **tạm tính** và **thanh toán** (sau khi trừ chiết khấu)
-- 🔢 Điều chỉnh % chiết khấu bằng `NumericUpDown`
+---
 
-## Danh sách dịch vụ
-| Danh mục | Dịch vụ | Giá |
-|----------|---------|-----|
-| Khám bệnh | Khám tổng quát | 150.000 ₫ |
-| Khám bệnh | Khám chuyên khoa | 100.000 ₫ |
-| Xét nghiệm | Xét nghiệm công thức máu | 120.000 ₫ |
-| Xét nghiệm | Xét nghiệm đường huyết | 50.000 ₫ |
-| Xét nghiệm | Xét nghiệm nước tiểu | 70.000 ₫ |
-| Chụp X-Quang | X-Quang ngực | 200.000 ₫ |
-| Chụp X-Quang | X-Quang bàn tay | 150.000 ₫ |
-| Vắc-xin | Vắc-xin cúm | 350.000 ₫ |
-| Vắc-xin | Vắc-xin viêm gan B | 250.000 ₫ |
+## KẾT QUẢ THỰC HÀNH
 
-## Công nghệ sử dụng
-- **Ngôn ngữ:** C# (.NET Framework)
-- **UI:** Windows Forms
-- **Controls:** ComboBox, ListBox, NumericUpDown, Label, Button
+### 1. Ảnh màn hình Giao diện chính
+![Giao diện chính](./screenshots/main_ui.png)
 
-## Giao diện
+### 2. Ảnh màn hình Chức năng thực thi / Kết quả
+![Thực thi chức năng](./screenshots/execution_result.png)
 
-![Màn hình chính](bai%205.2.1.png)
-
-![Chọn dịch vụ và tính tiền](bai%205.2.2.png)
-
-## Cách chạy
-1. Mở file `bt 5.2 10-10.slnx` bằng Visual Studio
-2. Nhấn `F5` hoặc `Ctrl+F5` để chạy
+### 3. Ảnh màn hình Kiểm tra lỗi (Validation)
+> Bài này sử dụng ListBox để chọn dịch vụ, không có form validation lỗi riêng.
+> Xem ảnh kết quả tính tiền ở mục 2.

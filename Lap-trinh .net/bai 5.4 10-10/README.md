@@ -1,59 +1,32 @@
-# Bài 5.4 – Quản Lý Nhân Viên với TreeView & ListView (10/10)
+# BÁO CÁO BÀI TẬP / ĐỒ ÁN
 
-## Mô tả
-Ứng dụng Windows Forms C# xây dựng hệ thống **quản lý nhân viên** sử dụng `TreeView` để hiển thị cấu trúc phòng ban/nhóm và `ListView` để hiển thị danh sách nhân viên theo bộ phận được chọn.
+## THÔNG TIN SINH VIÊN
+- **Họ và tên:** Nguyễn Phúc Vượng
+- **Mã số sinh viên:** 24810320187
+- **Lớp:** D19QTANM1
+- **Tên môn học:** Lập trình C# / Windows Forms
+- **Tên bài tập:** Bài 5.4 – Quản Lý Nhân Viên với TreeView & ListView (10/10)
 
-## Chức năng
-- 🌳 **TreeView** hiển thị cây tổ chức: Công ty → Phòng ban → Nhóm
-- 📋 **ListView** lọc và hiển thị nhân viên theo phòng/nhóm được chọn
-- 🔄 **Chế độ xem** linh hoạt: Details / SmallIcon / LargeIcon / Tile / List
-- 🏢 Click vào node phòng ban → hiển thị toàn bộ nhân viên phòng đó
-- 👥 Click vào node nhóm → hiển thị chỉ nhân viên của nhóm đó
+---
 
-## Cấu trúc tổ chức
-```
-Công ty ABC
-├── Phòng Công nghệ thông tin
-│   ├── Phát triển phần mềm
-│   ├── Đảm bảo chất lượng
-│   └── Hạ tầng hệ thống
-├── Phòng Kinh doanh
-│   ├── Khách hàng doanh nghiệp
-│   └── Khách hàng cá nhân
-└── Phòng Nhân sự
-    ├── Tuyển dụng
-    └── Chế độ và phúc lợi
-```
+## KẾT QUẢ THỰC HÀNH
 
-## Thông tin nhân viên hiển thị
-| Cột | Nội dung |
-|-----|---------|
-| Mã NV | Mã định danh |
-| Họ và tên | Tên đầy đủ |
-| Chức vụ | Vị trí công việc |
-| Ngày vào làm | Định dạng dd/MM/yyyy |
+### 1. Ảnh màn hình Giao diện chính
+![Giao diện chính](./screenshots/main_ui.png)
 
-## Công nghệ sử dụng
-- **Ngôn ngữ:** C# (.NET Framework)
-- **UI:** Windows Forms
-- **Controls:** TreeView, ListView, ComboBox, ImageList
+### 2. Ảnh màn hình Chức năng thực thi / Kết quả
+![Chọn phòng ban trên TreeView](./screenshots/execution_result.png)
 
-## Giao diện
+![Chọn nhóm trên TreeView](./screenshots/execution_result2.png)
 
-![Màn hình chính - Details view](bai%205.4.1.png)
+![Chế độ xem SmallIcon](./screenshots/execution_result3.png)
 
-![Chọn phòng ban](bai%205.4.2.png)
+![Chế độ xem LargeIcon](./screenshots/execution_result4.png)
 
-![Chọn nhóm](bai%205.4.3.png)
+![Chế độ xem Tile](./screenshots/execution_result5.png)
 
-![SmallIcon view](bai%205.4.4.png)
+![Chế độ xem List](./screenshots/execution_result6.png)
 
-![LargeIcon view](bai%205.4.5.png)
-
-![Tile view](bai%205.4.6.png)
-
-![List view](bai%205.4.7.png)
-
-## Cách chạy
-1. Mở file `bai 5.4 10-10.slnx` bằng Visual Studio
-2. Nhấn `F5` hoặc `Ctrl+F5` để chạy
+### 3. Ảnh màn hình Kiểm tra lỗi (Validation)
+> Bài này sử dụng TreeView để lọc dữ liệu nhân viên theo phòng/nhóm, không có form validation.
+> Xem ảnh kết quả lọc ở mục 2.

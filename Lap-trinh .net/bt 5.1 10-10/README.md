@@ -1,32 +1,23 @@
-# Bài tập 5.1 – Form Đăng Ký Tài Khoản (10/10)
+# BÁO CÁO BÀI TẬP / ĐỒ ÁN
 
-## Mô tả
-Ứng dụng Windows Forms C# xây dựng form đăng ký tài khoản có **kiểm tra hợp lệ (validation)** đầy đủ bằng `ErrorProvider`.
+## THÔNG TIN SINH VIÊN
+- **Họ và tên:** Nguyễn Phúc Vượng
+- **Mã số sinh viên:** 24810320187
+- **Lớp:** D19QTANM1
+- **Tên môn học:** Lập trình C# / Windows Forms
+- **Tên bài tập:** Bài tập 5.1 – Form Đăng Ký Tài Khoản có Validation (10/10)
 
-## Chức năng
-- ✅ Kiểm tra tên đăng nhập không được để trống
-- ✅ Kiểm tra mật khẩu không được để trống
-- ✅ Kiểm tra mật khẩu nhập lại phải khớp
-- ✅ Kiểm tra tuổi phải đủ 18 trở lên (dựa vào `DateTimePicker`)
-- ✅ Bắt buộc chọn giới tính (`RadioButton`)
-- ✅ Bắt buộc đồng ý điều khoản dịch vụ (`CheckBox`)
-- ✅ Nút **Reset** xóa toàn bộ form về trạng thái ban đầu
+---
 
-## Công nghệ sử dụng
-- **Ngôn ngữ:** C# (.NET Framework)
-- **UI:** Windows Forms
-- **Controls:** TextBox, DateTimePicker, RadioButton, CheckBox, ErrorProvider, Button
+## KẾT QUẢ THỰC HÀNH
 
-## Giao diện
+### 1. Ảnh màn hình Giao diện chính
+![Giao diện chính](./screenshots/main_ui.png)
 
-![Màn hình đăng ký](bai%205.1.1.png)
+### 2. Ảnh màn hình Chức năng thực thi / Kết quả
+![Thực thi chức năng](./screenshots/execution_result.png)
 
-![Kiểm tra lỗi validation](bai%205.1.2.png)
+![Đăng ký thành công](./screenshots/success.png)
 
-![Kiểm tra tuổi](bai%205.1.3.png)
-
-![Đăng ký thành công](bai%205.1.4.png)
-
-## Cách chạy
-1. Mở file `bt 5.1 10-10.slnx` bằng Visual Studio
-2. Nhấn `F5` hoặc `Ctrl+F5` để chạy
+### 3. Ảnh màn hình Kiểm tra lỗi (Validation)
+![Kiểm tra lỗi](./screenshots/validation_error.png)
